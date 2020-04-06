@@ -11,13 +11,55 @@
     <h1>text</h1>
 
     <main>
-        <div class="border component colum1">
-            <span>Component 1</span>
-        </div>
-        <div class="border component colum2">
-            <span>Component 2</span>
+        <section class="border component colum1">
 
-        </div>
+            <div class="taskbox">
+
+                <div class="panel">
+                    <button class="panel-button">Add</button>
+                    <button class="panel-button">Clear</button>
+                </div>
+                <div id="tasks">
+                    <div id="task-1" class="task">
+                        <input type="checkbox" title="Check it if task is done">
+                        <input type="text" size="40" disabled value="some text">
+                        <button class="task-button" data-button-action="edit" title="Edit task"></button>
+                        <button class="task-button" data-button-action="delete" title="Delete task"></button>
+                    </div>
+                    <div id="task-2" class="task">
+                        <input type="checkbox">
+                        <input type="text" size="40" disabled value="some text">
+                        <button class="task-button" data-button-action="edit"></button>
+                        <button class="task-button" data-button-action="delete"></button>
+                    </div>
+                    <div id="task-3" class="task">
+                        <input type="checkbox">
+                        <input type="text" size="40" disabled value="some text">
+                        <button class="task-button" data-button-action="edit"></button>
+                        <button class="task-button" data-button-action="delete"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border component colum2">
+            <div class="message-box">
+                <div class="cancel-button">
+                    cancel
+                </div>
+                <div class="message-box-main">
+                    <div class=" message-box-text ">
+                        <input type="text ">
+                    </div>
+                    <div class="message-box-buttons ">
+                        <button class="message-button ">Ok</button>
+                        <button class="message-button ">Cancel</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
 
 
     </main>
