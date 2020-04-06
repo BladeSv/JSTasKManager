@@ -93,6 +93,11 @@ div {
     flex-flow: column;
 }
 
+.cancel-button-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .message-button {
     background-color: white;
     /* Green */
@@ -113,6 +118,16 @@ div {
 
 .message-box-text {
     height: 60px;
+    display: flex;
+}
+
+.message-box-text input[type="text"] {
+    margin: auto;
+    width: 80%;
+}
+
+.message-box-text p {
+    margin: auto;
 }
 
 .message-box-buttons {
